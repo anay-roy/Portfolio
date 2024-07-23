@@ -1,5 +1,5 @@
 import React from 'react';
-import { HERO_CONTENT } from '../constants'; // Assuming HERO_CONTENT is imported from a constants file
+import { ABOUT_TEXT, HERO_CONTENT } from '../constants'; // Assuming ABOUT_TEXT and HERO_CONTENT are imported from a constants file
 import profilePic from '../assets/anayroy.jpeg'; // Assuming profilePic is imported from the assets folder
 
 const Hero = () => {
@@ -21,7 +21,7 @@ const Hero = () => {
         </div>
         <div className='w-full lg:w-1/2 lg:p-8'>
           <div className='flex justify-center'>
-            <img src={profilePic} alt='Anay Roy' />
+            <img className='rounded-2xl' src={profilePic} alt='Anay Roy' />
           </div>
         </div>
       </div>
